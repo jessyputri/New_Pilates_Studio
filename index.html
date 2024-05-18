@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Minimalistic Pilates Studio</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            position: relative;
+            width: 90%; /* Adjust the width as needed */
+            max-width: 1200px; /* Adjust the maximum width as needed */
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif; /* Use the custom font */
+            font-size: 2em;
+            color: #fff;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            z-index: 1;
+        }
+        video {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Modern Minimalistic Pilates Studio</h1>
+        <video src="video.mp4" autoplay loop muted playsinline></video>
+    </div>
+    <a href="content.html" class="button">Discover More</a>
+</body>
+</html>
